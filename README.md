@@ -3,16 +3,18 @@ KITT - An Open Source PowerShell O365 Business Email Compromise Investigation To
 
 
 Welcome to KITT - This is a tool designed to make working O365 Business Email Compromise investigations easier and more efficient for DFIR and SOC analysts by pairing the power of PowerShell cmdlets with the ease of use of a GUI.
-KITT was built using Sapien's PowerShell Studio. Dates are set to UTC. Powershell Cmdlet limitations limit the pulling of AzureAD SignIn Logs to 30 days, and Message Trace Logs to 10 days. By default, the timepickers are set to those values. 
+KITT was built using Sapien's PowerShell Studio. Dates are set to UTC. 
+
+Powershell Cmdlet limitations limit the pulling of AzureAD SignIn Logs to 30 days, and Message Trace Logs to 10 days. By default, the timepickers are set to those values. 
 
 ---------------------------------------------------------------------------	
 BEFORE YOU BEGIN:
 	1. You'll need to install the following PS modules in order to run this:
 	
-		AzureADPreview - This is necessary as of 6/2020 because the preview version of AzureAD contains the Get-AzureADAuditSignInLogs cmdlet. You cannot have both AzureAD and AzureADPreview installed at the same time, so it is recommended to use this tool on a Dev system until Microsoft releases that cmdlet to the Prod version of AzureAD. 
+		AzureADPreview
 		ExchangeOnlineManagement
 		MSOnline
-	
+		
 	2. Please search for "CHANGE_ME" to find two values you will need to change. These are: 
 		1. You'll need to add your email address after Connect-ExchangeOnline -UserPrincipalName.  
 		2. You'll need to change the variable $script:DomainName to be your domain. That will allow the script to get the password policy for your domain to calculate the password expiration date for a user. 
