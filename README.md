@@ -24,5 +24,7 @@ Feedback can be left on my Github or sent to the following contact details:
 2. intrepidtechie@gmail.com
 ---------------------------------------------------------------------------
 Please feel free to contribute to this tool by fixing bugs or providing feedback. I'm not a developer by trade, and would gladly accept feedback from seasoned devs/PowerShell Gurus.
+
 Special thanks to my wonderful wife Kait for constantly supporting me. 
+
 Dedicated to @HumanMalware. RIP bro, you are gone too soon. 
