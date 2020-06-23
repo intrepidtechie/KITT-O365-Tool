@@ -9,15 +9,14 @@ Powershell Cmdlet limitations limit the pulling of AzureAD SignIn Logs to 30 day
 
 ---------------------------------------------------------------------------	
 BEFORE YOU BEGIN:
-	1. You'll need to install the following PS modules in order to run this:
-	
-		AzureADPreview
-		ExchangeOnlineManagement
-		MSOnline
+1. You'll need to install the following PS modules in order to run this:
+	AzureADPreview
+	ExchangeOnlineManagement
+	MSOnline
 		
-	2. Please search for "CHANGE_ME" to find two values you will need to change. These are: 
-		1. You'll need to add your email address after Connect-ExchangeOnline -UserPrincipalName.  
-		2. You'll need to change the variable $script:DomainName to be your domain. That will allow the script to get the password policy for your domain to calculate the password expiration date for a user. 
+2. Please search for "CHANGE_ME" to find two values you will need to change. These are: 
+	1. You'll need to add your email address after Connect-ExchangeOnline -UserPrincipalName.  
+	2. You'll need to change the variable $script:DomainName to be your domain. That will allow the script to get the password policy for your domain to calculate the password expiration date for a user. 
 	
 ---------------------------------------------------------------------------
 Feedback can be left on my Github or sent to the following contact details: 
