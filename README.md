@@ -10,9 +10,9 @@ Powershell Cmdlet limitations limit the pulling of AzureAD SignIn Logs to 30 day
 ---------------------------------------------------------------------------	
 BEFORE YOU BEGIN:
 1. You'll need to install the following PS modules in order to run this:
-	AzureADPreview
-	ExchangeOnlineManagement
-	MSOnline
+	1. AzureADPreview
+	2. ExchangeOnlineManagement
+	3. MSOnline
 		
 2. Please search for "CHANGE_ME" to find two values you will need to change. These are: 
 	1. You'll need to add your email address after Connect-ExchangeOnline -UserPrincipalName.  
