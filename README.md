@@ -1,4 +1,4 @@
-# KITTO365Tool
+# KITT-O365-Tool
 KITT - An Open Source PowerShell O365 Business Email Compromise Investigation Tool
 
 
